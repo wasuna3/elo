@@ -62,7 +62,7 @@ class main(object):
                         print(self.printing[i])
                     except (ValueError, Exception):
                         pass
-                time.sleep(0.5)
+                time.sleep(0.1)
 a = main()
 class proxy():
     global proxy_loading
