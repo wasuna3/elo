@@ -84,7 +84,7 @@ class proxy():
                     except:
                         print("Proxy loading failed!")
                         pass
-            time.sleep(600)
+            time.sleep(60)
 
     def get_proxy(self):
         random1 = random.choice(self.splited) #choose a random proxie
@@ -96,7 +96,7 @@ class proxy():
     def __init__(self):
         self.splited = []
         threading.Thread(target=self.update).start()
-        time.sleep(3)
+        time.sleep(1)
 
 proxy1 = proxy()
 def bot():
