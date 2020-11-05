@@ -91,7 +91,7 @@ class proxy():
     def __init__(self):
         self.splited = []
         threading.Thread(target=self.update).start()
-        time.sleep(1)
+        time.sleep(0.1)
 
 proxy1 = proxy()
 def bot():
